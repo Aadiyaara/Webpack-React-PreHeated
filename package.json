@@ -4,6 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start-server": "http-server -c-1 -p 3000",
+    "predeploy": "npm run build",
+    "deploy": "",
+    "dev": "",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
     "test": "ninenine"
   },
   "repository": {
